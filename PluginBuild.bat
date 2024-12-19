@@ -1,1 +1,1 @@
-B:\UnrealEngine\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat BuildPlugin -Plugin="B:\Projects\MotionReplicatorDemo\Plugins\MotionReplicator\MotionReplicator.uplugin" -Package="B:\Projects\MotionReplicatorDemo\Builds\MotionReplicator" -Rocket -2019
+B:\UnrealEngine\UE_5.5\Engine\Build\BatchFiles\RunUAT.bat BuildPlugin -Plugin="B:\Projects\MotionReplicatorDemo\Plugins\MotionReplicator\MotionReplicator.uplugin" -Package="B:\Projects\MotionReplicatorDemo\Builds\MotionReplicator" -Rocket -2019
