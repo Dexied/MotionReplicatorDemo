@@ -8,8 +8,9 @@ public class MotionReplicatorDemoEditorTarget : TargetRules
 	public MotionReplicatorDemoEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V5;
+        DefaultBuildSettings = BuildSettingsVersion.V6;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
 
-		ExtraModuleNames.AddRange( new string[] { "MotionReplicatorDemo" } );
+        ExtraModuleNames.AddRange( new string[] { "MotionReplicatorDemo" } );
 	}
 }
